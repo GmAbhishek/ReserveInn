@@ -3,6 +3,7 @@ import './Restaurants.css'
 import axios from 'axios';
 import { useNavigate } from "react-router-dom";
 
+import find from "../../assets/Find.png";
 const Restaurants = () => {
   const navigate = useNavigate();
   const [data, setData] = React.useState<any>();
@@ -91,7 +92,7 @@ const Restaurants = () => {
           </div>
           ) 
         )))
-      }
+      }<img className='full-page' src={find} alt="logo"/>
     </div>
   )
 }

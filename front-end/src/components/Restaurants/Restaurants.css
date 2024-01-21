@@ -138,3 +138,6 @@
 .res-button:hover {
     background-color: #f73952;
 }
+.full-page{
+    width: 100vw;
+}

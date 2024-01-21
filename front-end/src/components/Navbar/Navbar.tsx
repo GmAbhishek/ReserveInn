@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import "./Navbar.css"
 import { IconContext } from "react-icons";
 import { GiBeachBall } from "react-icons/gi";
+import logo from "../../assets/logo.png";
 import Deso from "deso-protocol";
 const deso = new Deso();
 
@@ -13,7 +14,7 @@ const Navbar = () => {
   return (
     <nav className="navbar-container">
         <IconContext.Provider value={{ size: "47px", color: "#f73952", className: "icon-logo" }}>
-          <GiBeachBall />
+        <img className="logo-image" src={logo} alt="logo"/>
         </IconContext.Provider>
           <ul className="navbar-list">
               <li>

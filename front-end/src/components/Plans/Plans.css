@@ -1,6 +1,6 @@
 :root {
     --blue: #55c5d9;
-    --red: #f73952;
+    --red:  rgb(233, 194, 67) ;
   }
 
 .plans-container {
