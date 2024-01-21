@@ -1,0 +1,62 @@
+.navbar-container {
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(0, 0, 0,0.7) ;
+    z-index: 5;
+    margin: 10px 10px 100px 10px;
+    border-radius: 64px;
+    /* border-bottom: 1px solid;
+    border-color: #f73952; */
+}
+
+.navbar-list {
+    width: 100%;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.icon-logo {
+    width: 120px;
+    cursor: pointer;
+    margin: 15px 15px 0px 0px;
+}
+
+#links {
+    height: 100%;
+    text-decoration: none;
+    color: black;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 26px;
+    color: white;
+}
+
+.auth-button {
+    background-color: rgb(233, 194, 67) ; /* Green */
+    width: 120px;
+    /* border: 1px solid; */
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 30px 10px 10px;
+    border-radius: 0.75rem;
+}
+
+
+.auth-button:hover {
+    background-color: #964B00;
+    color:white;
+}
+
+#links:hover {
+    color: rgb(233, 194, 67) ;
+}
